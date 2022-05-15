@@ -21,7 +21,7 @@ const {
 const botName = "PingIO Bot";
 
 // Setting Front-end folder as static:
-app.use(express.static(path.join(__dirname, "frontend")));
+app.use(express.static(path.join(__dirname, "Frontend")));
 
 // Runs when a client connects:
 io.on("connection", (socket) => {
